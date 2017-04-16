@@ -10,7 +10,7 @@ Simple example of using Observer design patter in C#.
 
 ![Imgur](http://i.imgur.com/w5odkFz.png)
 
-> Screnshot
+> Screenshot
 
 ![Imgur](http://i.imgur.com/lJRpxrq.png)
 
