@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{BFD4CC67-B86F-4462-B323-5125BC625F4B}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>observer_example_termometer</RootNamespace>
-    <AssemblyName>observer-example-termometer</AssemblyName>
+    <RootNamespace>observer_example_thermometer</RootNamespace>
+    <AssemblyName>observer-example-thermometer</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -48,7 +48,7 @@
     <Compile Include="src\observable\Observer.cs" />
     <Compile Include="src\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="src\subject\TermometerSubject.cs" />
+    <Compile Include="src\subject\ThermometerSubject.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

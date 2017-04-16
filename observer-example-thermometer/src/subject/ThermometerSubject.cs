@@ -1,14 +1,14 @@
-﻿using observer_example_termometer.src.observable;
+﻿using observer_example_thermometer.src.observable;
 using System.Collections.Generic;
 
-namespace observer_example_termometer.src.subject
+namespace observer_example_thermometer.src.subject
 {
-    internal class TermometerSubject
+    internal class ThermometerSubject
     {
         private IList<Observer> observers;
         private int temperature;
 
-        public TermometerSubject()
+        public ThermometerSubject()
         {
             this.observers = new List<Observer>();
         }

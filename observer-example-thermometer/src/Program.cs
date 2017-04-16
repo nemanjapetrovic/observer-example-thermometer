@@ -1,15 +1,15 @@
-﻿using observer_example_termometer.src.observable;
-using observer_example_termometer.src.subject;
+﻿using observer_example_thermometer.src.observable;
+using observer_example_thermometer.src.subject;
 using System;
 
-namespace observer_example_termometer
+namespace observer_example_thermometer
 {
     class Program
     {
         static void Main(string[] args)
         {
             // Creating subject
-            var ts = new TermometerSubject();
+            var ts = new ThermometerSubject();
 
             // Creating observervables
             var celsiusObs = new CelsiusGadget(ts);
@@ -21,7 +21,7 @@ namespace observer_example_termometer
             Console.WriteLine("> Notify gadgets: \n");
             ts.SetTemp(10);
             Console.WriteLine("--------------------------");
-            Console.WriteLine("Temperature read: {0} celsius", 25);
+            Console.WriteLine("Station temperature read: {0} celsius", 25);
             Console.WriteLine("> Notify gadgets: \n");
             ts.SetTemp(25);
             Console.WriteLine("--------------------------");
