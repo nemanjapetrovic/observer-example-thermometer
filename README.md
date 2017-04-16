@@ -2,7 +2,7 @@
 
 Simple example of using Observer design patter in C#. 
 
->In the example we have thermometer antena and some gadgets who are waiting for temperature response from the antena.
+>In the example we have thermometer antena and some gadgets which are waiting for temperature response from the antena.
 
 ![Imgur](http://i.imgur.com/dtqpKSG.png)
 
