@@ -13,7 +13,7 @@ namespace observer_example_thermometer.src.observable
 
         public override void Update()
         {
-            Console.WriteLine("\tCelsisus observer: {0}", base.Subject.GetTemp());
+            Console.WriteLine($"\tCelsius observer: {base.Subject.GetTemp()}");
         }
     }
 }

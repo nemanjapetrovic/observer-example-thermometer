@@ -13,7 +13,7 @@ namespace observer_example_thermometer.src.observable
 
         public override void Update()
         {
-            Console.WriteLine("\tFahrenheit observer: {0}", base.Subject.GetTemp() * 1.8 + 32);
+            Console.WriteLine($"\tFahrenheit observer: {base.Subject.GetTemp() * 1.8 + 32}");
         }
     }
 }

@@ -13,7 +13,7 @@ namespace observer_example_thermometer.src.observable
 
         public override void Update()
         {
-            Console.WriteLine("\tKelvin observer: {0}", base.Subject.GetTemp() + 273.15);
+            Console.WriteLine($"\tKelvin observer: {base.Subject.GetTemp() + 273.15}");
         }
     }
 }
