@@ -13,7 +13,3 @@ Simple example of using Observer design patter in C#.
 > Screenshot
 
 ![Imgur](http://i.imgur.com/lJRpxrq.png)
-
-
-
-[![N|Solid](http://www.blogworld.com/wp-content/uploads/2009/04/linkedin-logo.jpg)](https://rs.linkedin.com/in/nemanjapetrovic1994)
